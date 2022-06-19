@@ -1,0 +1,55 @@
+.code-challenge {
+    position: relative;
+ 
+}
+
+#hr-feature {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 5em;
+    opacity: 50%
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 200px;
+  margin-top: 1%;
+  padding: 2%;
+}
+
+
+.row-features {
+  margin: 5%;
+}
+
+/* Clear floats after the columns */
+.row-features:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media only screen and (max-device-width: 768px) {
+  .code-challenge {
+    margin: 20% 10%;
+  }
+  
+  .row-features {
+    margin: 2%;
+  }
+  
+  .column {
+    width: 100%;
+  }
+  
+}

@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import BasmaApps from './components/BasmaApps';
+import Features from './components/Features';
+import PowerfulTools from './components/PowerfulTools';
+import LearnMore from './components/LearnMore';
+import OtherFeatures from './components/OtherFeatures';
+import Packages from './components/Packages';
+import Subscribe from './components/Subscribe';
+import Contacts from './components/Contacts';
+// import '../public/css/custom.css';
+// import '../public/css/bootstrap.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <Navbar />
+      <Header />
+      <Features />
+      <PowerfulTools />
+      <LearnMore />
+      <OtherFeatures />
+      <Packages />
+      <BasmaApps />
+      <Subscribe />
+      <Contacts />
+      
     </div>
   );
 }

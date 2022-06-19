@@ -1,0 +1,53 @@
+.phone-tools {
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    background-color: rgb(227, 227, 232)
+}
+
+.phone {
+    padding: 10%;
+}
+
+.tools {
+    padding: 10%;
+    text-align: left;
+}
+
+.powerful-p {
+    margin-top: 20px;
+    opacity: 80%;
+}
+
+.cam-bell-mail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.tick {
+    margin-right: 2px;
+}
+
+
+@media only screen and (max-device-width: 768px) {
+  .phone-tools {
+    display: block;
+    margin-top: 20%;
+  }
+
+.tools {
+    text-align: center;
+}
+
+.tick {
+    display: block
+}
+
+.cam-bell-mail {
+    margin: 10%;
+    margin-left: 20%;
+}
+
+
+}

@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 765px) {
+  .App {
+    overflow-x: hidden;
+  }
+}
+
+.btn {
+  background: linear-gradient(146deg, #761dfc 46%, #966ad7) !important;
+  box-shadow: 1px 1px #761dfc61 !important ;
+  border: unset !important;
+  padding: 0.7em 1.8em !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color:white !important;
+}

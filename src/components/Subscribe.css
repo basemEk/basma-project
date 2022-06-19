@@ -1,0 +1,27 @@
+.container-subscribe {
+  width: 45.5%;
+  margin: 10% auto;
+  height: 40vh;
+}
+
+.image-container-map {
+    height: 100%;
+    position: relative;
+    padding: 2% 2%;
+    background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.01)), url('../../public/images/newsletter-background.png');
+    box-shadow: 1px 2px  rgb(196, 195, 195);
+}
+
+.h2-input-btn input {
+    margin-top: 5%;
+    width: 300px;
+}
+
+.h2-input-btn button {
+    margin-top: 2%;
+    background-color: #761DFC;
+}
+
+.h2-input-btn h2 {
+    font-weight: 500;
+}

@@ -1,111 +1,109 @@
-import "./Contacts";
+import "./Contacts.css";
 
 const Contacts = () => {
   return (
-    <div>
+    <div className="contacts-wrapper">
       <div className="stay-tuned">
-        <h1 style={{ fontWeight: "700" }}>Stay Tunes</h1>
+        <h1 style={{ fontWeight: "700" }}>Stay Tuned</h1>
         <hr
           style={{ width: "85px", backgroundColor: "#761DFC", height: "0.5px" }}
         />
         <p style={{ paddingBottom: "5%", opacity: "90%" }}>
           reproduced in their exact original form, accompanied by English
-          versions from the 1914 <br />
-          translation by H. Rackhamtheir exact original form.
+          versions from the <br />
+          translation by H. Rackhamtheir exact original form exact original.
         </p>
       </div>
-
-      <div className="contacts-form-container">
-        <div className="contacts">
-          <div className="home-phone-mail">
-            <p className="home-icon">
-                 <p>
-               <span>
-                <img
-                  src="images/form-house.svg"
-                  style={{
-                    width: "20px",
-                    marginLeft: "-3%",
-                    marginTop: "0.5%",
-                    position: "absolute",
-                    color: 'white',
-                    backgroundColor: '#761DFC'
-                  }}
-                  alt="house"
-                />
-              </span>
-            reproduced in their exact original form, accompanied by English
-            <br />
-            reproduced in their exact original form, accompanied by English
-            <br />
-            reproduced in their exact original form, accompanied by English
+      
+       <div className="cont-row">
+        <div className="cont-column one">
+          <p id="lorem-contact-p">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
+             facilisis libero. Vestibulum ultrices eros dolor consectetur d.
+             facilisis libero. Vestibulum ultrices eros dolor consectetur d.
+             facilisis.
           </p>
-            </p>
-
-            <p className="phone-icon">
-              <span>
-                <img
-                  src="images/form-phone.svg"
-                  style={{
-                    width: "20px",
-                    marginLeft: "-3%",
-                    marginTop: "0.5%",
-                    position: "absolute",
-                    backgroundColor: '#761DFC',
-                  }}
-                  alt="phone"
-                />
-              </span>
-              +1 230 456 789-012 345 6789
-            </p>
-
-            <p className="mail-icon">
-              <span>
-                <img
-                  src="images/form-mail.svg"
-                  style={{
-                    width: "20px",
-                    marginLeft: "-3%",
-                    marginTop: "0.5%",
-                    position: "absolute",
-                    backgroundColor: '#761DFC',
-                  }}
-                  alt="mail"
-                />
-              </span>
-              exampledomain@domain.com
-            </p>
+          
+          <div className="contacts-icons-p">
+             <img
+              src="images/form-house.svg"
+              style={{
+                width: "20px",
+                marginLeft: "-3%",
+                marginTop: "0.5%",
+                position: "absolute",
+                color: "white",
+                backgroundColor: "#761DFC",
+              }}
+                alt="house"
+              /> 
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
+                facilisis libero. Vestibulum ultrices.
+              </p>
+          </div>
+          
+          <div className="contacts-icons-p">
+             <img
+              src="images/form-phone.svg"
+              style={{
+                width: "20px",
+                marginLeft: "-3%",
+                marginTop: "0.5%",
+                position: "absolute",
+                color: "white",
+                backgroundColor: "#761DFC",
+              }}
+                alt="house"
+              /> 
+              <p>
+                +1 230 456 789-012 345 6789
+              </p>
+          </div>
+          <div className="contacts-icons-p">
+             <img
+              src="images/form-mail.svg"
+              style={{
+                width: "20px",
+                marginLeft: "-3%",
+                marginTop: "0.5%",
+                position: "absolute",
+                color: "white",
+                backgroundColor: "#761DFC",
+              }}
+                alt="house"
+              /> 
+              <p>
+                exampledomain@domain.com
+              </p>
           </div>
         </div>
         
+        <div className="cont-column">
+           <form>
+              <div className="form-group">
+                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name" />
+              </div>
+              
+              <div className="form-group">
+                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
+              </div>
+              
+              <div className="form-group">
+                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject" />
+              </div>
+              
+              <div className="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+              </div>
         
-        
-        <div className="form">
-            <form class="form-horizontal">
-            {/* col-md-4 */}
-        <div className="form-group">
-          <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Name" />
-        </div>
-        <div className="form-group">
-          <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Email" />
-        </div>
-        <div className="form-group">
-          <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Subject" />
-        </div>
-    
-        <div className="form-group">
-          <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows={3} defaultValue={""} />
-        </div>
-        
-        <div className="form-group">
-            <button type="button" className="btn btn-primary btn-md btn-block" 
-                style={{ backgroundColor: '#761DFC' }}><span></span>Send Message
-            </button>
-        </div>
-           </form>
+          <button type="submit" className="btn btn-primary btn-lg btn-block">Send Message</button>
+      </form>
+
         </div>
       </div>
-    </div>
+      
+      </div>    
   );
 };
 

@@ -55,5 +55,6 @@
     .learn-btn {
         margin-bottom: 90px;
         position: relative;
+        transform: translateX(-30px)
     }
 }

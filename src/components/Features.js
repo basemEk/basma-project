@@ -34,7 +34,7 @@ const Features = () => {
           <h3>Fully Functional</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
-            facilisis libero. Vestibulum ultrices eros dolor.
+            facilisis libero. Vestibulum ultrices eros dolor Vestibulum .
           </p>
         </div>
         <div className="column">
@@ -42,7 +42,7 @@ const Features = () => {
           <h3>Location Tracking</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
-            facilisis libero. Vestibulum ultrices eros dolor.
+            facilisis libero. Vestibulum ultrices eros dolor Vestibulum .
           </p>
         </div>
         <div className="column">
@@ -50,7 +50,7 @@ const Features = () => {
           <h3>Powerful Setting</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
-            facilisis libero. Vestibulum ultrices eros dolor.
+            facilisis libero. Vestibulum ultrices eros dolor Vestibulum .
           </p>
         </div>
         <div className="column">
@@ -58,7 +58,7 @@ const Features = () => {
           <h3>Multiple Language</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
-            facilisis libero. Vestibulum ultrices eros dolor.
+            facilisis libero. Vestibulum ultrices eros dolor Vestibulum .
           </p>
         </div>
       </div>

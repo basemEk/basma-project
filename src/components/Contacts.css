@@ -1,8 +1,78 @@
-.form .form-group button {
-    background-color: #761DFC;
+.cont-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.contacts-form-container {
+.cont-column {
+    width: 100%;
+    margin: auto 4%;
+}
+
+ .stay-tuned {
+    margin: auto 100px;
+} 
+
+ .contacts-wrapper {
+    margin: 5%;
+}
+
+.contacts-wrapper {
+    padding: 5% 20px;
+    background-color: #E3E3E8;
+}
+
+.cont-column p {
+    text-align: left;
+}
+
+.contacts-icons-p {
     display: flex;
-    flex-direction: row;
+    margin-left: 10%;
+}
+
+.one {
+    margin-bottom: 100px; 
+}
+
+
+
+@media only screen and (max-device-width: 768px) {
+
+    .cont-row {
+        display: block;
+    }
+    
+    .stay-tuned {
+        margin: auto;
+    }
+    
+    .one {
+        margin-bottom: 100px;
+        width: 80%;
+    }
+    
+    .cont-column p {
+        text-align: left;
+        transform: translate(25px);
+    }
+    
+    #lorem-contact-p {
+        margin: 8% auto;
+    }
+    
+    .stay-tuned {
+        margin: auto 15px;
+    }
+    
+    .cont-column form {
+        width: 100%;
+        transform: translate(-15px);
+        margin-top: -50px;
+    }
+    
+    .cont-column button {
+        transform: translate(-1px)
+    }
 }

@@ -57,8 +57,9 @@
 }
 
 .signup-btn {
-    margin-left: 9%;
+    margin-left: 4.9%;
     position: absolute;
+    transform: translate(5px);
 }
 
 
@@ -79,8 +80,8 @@
     }
     
     .signup-btn {
-        margin-left: -12px;
-        padding-left: -20px;
+        margin-left: -58px;
+        transform: translate(1px);
     }
     
     .price-row h6 {

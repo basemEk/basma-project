@@ -25,3 +25,30 @@
 .h2-input-btn h2 {
     font-weight: 500;
 }
+
+
+@media only screen and (max-device-width: 768px) {
+
+    .container-subscribe {
+      width: 80%;
+      margin: 70% auto;
+      height: 40vh;
+    }
+    
+    .image-container-map {
+        height: 110vh;
+    }
+    
+    .h2-input-btn {
+        margin: 5%;
+    }
+    
+    .image-container-map {
+        margin-top: 75%;
+    }
+    
+    .h2-input-btn button {
+      margin-top: 3%;
+      height: 55px;
+    }
+}

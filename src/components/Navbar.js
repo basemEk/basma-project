@@ -1,93 +1,26 @@
+import React, { useState } from "react";
 import "./Navbar.css";
 
-const Navbar = () => {
-
+function Navbar() {
+  const [isMobile, setIsMobile] = useState(false);
   return (
-    <div id="navbar-page">
-      {/* <div className="nav-margin">
-        <nav className="navbar navbar-expand-lg navbar-light">
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="dropdown"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Home
-                </a>
-                <div
-                  className="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <a className="dropdown-item" href="#hashtags">
-                    Action
-                  </a>
-                  <a className="dropdown-item" href="#hashtags">
-                    Another action
-                  </a>
-                  <a className="dropdown-item" href="#hashtags">
-                    Something else here
-                  </a>
-                </div>
-              </li>
-              <li className="nav-item active">
-                <a className="nav-link" href="#home">
-                  Features <span className="sr-only">(current)</span>
-                </a>
-              </li>
-            <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="dropdown"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Pages
-                </a>
-                <div
-                  className="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <a className="dropdown-item" href="#hashtags">
-                    Action
-                  </a>
-                  <a className="dropdown-item" href="#hashtags">
-                    Another action
-                  </a>
-                  <a className="dropdown-item" href="#hashtags">
-                    Something else here
-                  </a>
-                </div>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#features">
-                  Screenshots
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#pricing">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#pricing">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-     </div> */}
-    </div>
+    <nav className="navbar">
+      <ul
+        className={isMobile ? "nav-menu active" : "nav-menu"}
+        onClick={() => setIsMobile(false)}
+      >
+        <li className="list drop">Home</li>
+        <li className="list">Features</li>
+        <li className="list drop">Pages</li>
+        <li className="list">Screenshots</li>
+        <li className="list">Pricing</li>
+        <li className="list">Contact</li>
+      </ul>
+      <div className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
+        <i className={isMobile ? "fas fa-times" : "fas fa-bars"}></i>
+      </div>
+    </nav>
   );
-};
+}
 
 export default Navbar;

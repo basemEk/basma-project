@@ -25,7 +25,6 @@ function App() {
       <BasmaApps />
       <Subscribe />
       <Contacts />
-      
     </div>
   );
 }

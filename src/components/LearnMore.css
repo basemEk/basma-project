@@ -12,6 +12,7 @@
 
 .phone-p p {
     opacity: 90%;
+    text-align: left;
 }
 
 .phone-p h1 {
@@ -20,8 +21,7 @@
 }
 
 .learn-btn {
-    text-align: left;
-    margin-left: 18%;
+    margin-left: 15%;
     margin-top: -16%;
     position: absolute;
 }
@@ -55,6 +55,6 @@
     .learn-btn {
         margin-bottom: 90px;
         position: relative;
-        transform: translateX(-30px)
+        transform: translateX(-100px)
     }
 }

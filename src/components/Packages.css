@@ -16,6 +16,10 @@
     grid-gap: 25px;
 }
 
+.container .price-row h6 {
+    transform: translateX(-60px)
+}
+
 .price-col {
     background-color: rgb(247, 243, 243);
     padding: 10% 5%;
@@ -40,7 +44,7 @@
     font-size: 20px;
 }
 
-.price-row h6 {
+.container .price-row h6 {
     transform: translateX(160px);
     margin-bottom: 45%;
 }
@@ -54,6 +58,9 @@
 
 .price-col ul li {
     margin: 15px 0;
+    color: black;
+    opacity: 70%;
+    transform: translateX(-20px)
 }
 
 .signup-btn {
@@ -84,12 +91,12 @@
         transform: translate(1px);
     }
     
-    .price-row h6 {
+    .container .price-row h6 {
         transform: translateX(-40px);
         width: 120%;
         margin-bottom: 80px;
     }
-
+    
 }
 
 

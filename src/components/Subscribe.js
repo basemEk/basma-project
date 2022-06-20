@@ -7,7 +7,7 @@ const Subscribe = () => {
                 <div className="image-container-map">
                     <div className='h2-input-btn'>
                         <h2>Subscribe to get updates</h2>
-                        <p>By subscribing you will get newsleter, promotion adipisicing elit <br />
+                        <p>By subscribing you will get<br />
                            promotion adipisicing elit promotion adipisicing elit promotion adipisicing</p>
                         <input type="email" placeholder="Enter your email here.."></input><br/>
                         <button type="button" className="btn btn-primary btn-md btn-block">Subscribe</button>

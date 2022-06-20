@@ -1,4 +1,6 @@
 import "./Contacts.css";
+import { IoIosSend } from "react-icons/io";
+
 
 const Contacts = () => {
   return (
@@ -9,8 +11,7 @@ const Contacts = () => {
           style={{ width: "85px", backgroundColor: "#761DFC", height: "0.5px" }}
         />
         <p style={{ paddingBottom: "5%", opacity: "90%" }}>
-          reproduced in their exact original form, accompanied by English
-          versions from the <br />
+          reproduced in their exact original form, accompanied by English<br />
           translation by H. Rackhamtheir exact original form exact original.
         </p>
       </div>
@@ -36,6 +37,7 @@ const Contacts = () => {
                 backgroundColor: "#761DFC",
               }}
                 alt="house"
+                id="h-icon"
               /> 
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
@@ -44,7 +46,7 @@ const Contacts = () => {
           </div>
           
           <div className="contacts-icons-p">
-             <img
+            <img
               src="images/form-phone.svg"
               style={{
                 width: "20px",
@@ -55,7 +57,9 @@ const Contacts = () => {
                 backgroundColor: "#761DFC",
               }}
                 alt="house"
+                id="ph-icon"
               /> 
+             
               <p>
                 +1 230 456 789-012 345 6789
               </p>
@@ -72,6 +76,7 @@ const Contacts = () => {
                 backgroundColor: "#761DFC",
               }}
                 alt="house"
+                id="m-icon"
               /> 
               <p>
                 exampledomain@domain.com
@@ -97,7 +102,7 @@ const Contacts = () => {
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
               </div>
         
-          <button type="submit" className="btn btn-primary btn-lg btn-block">Send Message</button>
+          <button type="submit" className="btn btn-primary btn-lg btn-block"><IoIosSend />Send Message</button>
       </form>
 
         </div>

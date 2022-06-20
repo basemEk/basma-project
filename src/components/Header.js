@@ -4,7 +4,6 @@ const Header = () => {
   return (
     <div id="first-section">
      
-      
       <div className="col-2-2 text-styling">
         <h1 >
           Creative way to <br />

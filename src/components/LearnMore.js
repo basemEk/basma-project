@@ -17,7 +17,7 @@ const LearnMore = () => {
             />
           </span>
           Aliquam convallis urna sit amet lorem semper accumsan. Class aptent
-          taciti sociosqu ad litora torquent sociosqu amet lorem semper ad litora torquent.
+          taciti sociosqu ad litora torquent sociosqu amet lorem semper ad litora.
         </p>
         <p className="learn-p">
           <span>

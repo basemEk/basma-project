@@ -36,6 +36,11 @@
     margin-bottom: 100px; 
 }
 
+.contacts-icons-p #ph-icon, #m-icon, #h-icon {
+    padding: 5px;
+    border-radius: 2px;
+}
+
 
 
 @media only screen and (max-device-width: 768px) {

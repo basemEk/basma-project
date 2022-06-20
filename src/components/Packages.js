@@ -8,7 +8,7 @@ const Packages = () => {
         <hr style={{ width: "85px", backgroundColor: "#761DFC", height: "0.5px" }}/>
         <p style={{ paddingBottom: "5%", opacity: "90%" }}>
           reproduced in their exact original form, accompanied by English
-          versions from the 1914 <br />
+          versions from the<br />
           translation by H. Rackhamtheir exact original form.
         </p>
         <div className="price-row">

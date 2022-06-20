@@ -5,7 +5,7 @@
 }
 
 .image-container-map {
-    height: 100%;
+    /* height: 100%; */
     position: relative;
     padding: 2% 2%;
     background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.01)), url('../../public/images/newsletter-background.png');
@@ -19,11 +19,12 @@
 
 .h2-input-btn button {
     margin-top: 2%;
+    margin-bottom: 2%;
     background-color: #761DFC;
 }
 
 .h2-input-btn h2 {
-    font-weight: 500;
+    font-weight: 500px;
 }
 
 
@@ -31,24 +32,20 @@
 
     .container-subscribe {
       width: 80%;
-      margin: 70% auto;
+      margin: 30% auto;
       height: 40vh;
-    }
-    
-    .image-container-map {
-        height: 110vh;
     }
     
     .h2-input-btn {
         margin: 5%;
     }
     
-    .image-container-map {
-        margin-top: 75%;
-    }
-    
     .h2-input-btn button {
       margin-top: 3%;
       height: 55px;
+    }
+    
+    .h2-input-btn input {
+        width: 200px
     }
 }
